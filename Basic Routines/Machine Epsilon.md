@@ -30,9 +30,12 @@ The function can be called without importing numpy and the result will be for th
 
 **Implementation/Code:** The following is the code for smaceps()
 
-    def machineEpsilon(numType=float):
-            #
+    def machineEpsilon(numType=float): 
+            #This declairs the number 1 in whatever version of float you are choosing to use
         machine_epsilon = numType(1)
+            #We will now divide 1 by two and then add that back to one.
+            #If the result cannot be differeniated from one, then the previous value added would be the smallest
+            #number that the machine can identify. We call this our machine epsilon.
         while numType(1)+numType(machine_epsilon) != numType(1):
             machine_epsilon_last = machine_epsilon
             machine_epsilon = numType(machine_epsilon) / numType(2)
