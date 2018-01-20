@@ -23,6 +23,8 @@ The output of this is:
 **Implementation/Code:** The following is the code for smaceps()
 
       def relerr(aprx,actl):
+        #np.abs() is a call out to the numpy library
+        #This means to use the program we must import numpy as np
         return(np.abs((actl-aprx)/actl))
 
 **Last Modified:** January/2018
