@@ -48,7 +48,7 @@ contains the approximation on the interior of the bound. The LU code is explaine
 
 **Implementation/Code:** The following is the code for smaceps()
 
-   def elip_int(func, a, b, ua, ub, n):
+    def elip_int(func, a, b, ua, ub, n):
     
     d=[] # diagonal
     u=[] # upper diagonal
