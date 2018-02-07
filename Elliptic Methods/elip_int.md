@@ -46,7 +46,7 @@ in res[2], and the solutions vector in res[3]. We can then solve for the approxi
 The vector y now contains the finite difference approximation for this problem. The initial conditions must be appended since the solution only 
 contains the approximation on the interior of the bound. The LU code is explained in its own manual entry.
 
-**Implementation/Code:** The following is the code for smaceps()
+**Implementation/Code:** The following is the code for elip_int()
 
     def elip_int(func, a, b, ua, ub, n):
     
