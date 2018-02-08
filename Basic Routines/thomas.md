@@ -32,7 +32,7 @@ Output from the lines above:
 
 This is the x vector from our equation. 
 
-**Implementation/Code:** The following is the code for smaceps()
+**Implementation/Code:** The following is the code for thomas()
 
       def thomas(b, a, c, d):
     
