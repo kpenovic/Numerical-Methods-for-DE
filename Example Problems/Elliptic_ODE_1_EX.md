@@ -6,6 +6,7 @@
 and then estimate the error compared to the real solution. The Example is u''=sin(Pi*x) on [0,1], ua=2.5, ub=5.0.
 
 **Example:**
+
       pi=3.141592653589793238462
 
       def func(x):
