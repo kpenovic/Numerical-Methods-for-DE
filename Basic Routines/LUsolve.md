@@ -25,9 +25,9 @@ To implement the function we would need a matrix and solutions vector:
     
 We ould now only need to have the rest of the set up to initialize this problem.
 
-    [1.0,1.0,1.0]
+    [1.0, 1.0, 1.0]
 
-**Implementation/Code:** The following is the code for t2elip_int()
+**Implementation/Code:** The following is the code for LUsolve()
 
     def LUsolve(L,U,b):
     
