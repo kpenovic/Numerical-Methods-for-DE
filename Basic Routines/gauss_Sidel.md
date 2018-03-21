@@ -15,6 +15,7 @@
 The routine needs a matrix, a resultant vector, and initial guess, maximum itterations number, and a tollerance level
 
 We will use this to solve:
+
       |-2,1,0||x1| |-1| 
       |1,-2,1||x2|=| 0|
       |0,1,-2||x3| |-1|
