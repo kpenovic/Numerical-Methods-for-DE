@@ -6,7 +6,7 @@
 
 **Description/Purpose:** This routine will compute the solution to Ax=b via Gauss-Sidel itterative method.
 
-**Input:** A matrix (A), a resultant vector (d), an initial guess (x), a maximum number of iterations (maxiter), and an error tolerance level (tol)
+**Input:** A matrix (A), a resultant vector (d), an initial guess (x), a maximum number of iterations (n), and an error tolerance level (err)
 
 **Output:** a single vector containing an aproximate solution of x.
 
@@ -15,9 +15,9 @@
 The routine needs a matrix, a resultant vector, and initial guess, maximum itterations number, and a tollerance level
 
 We will use this to solve:
-|-2,1,0||x1| |-1| 
-|1,-2,1||x2|=| 0|
-|0,1,-2||x3| |-1|
+      |-2,1,0||x1| |-1| 
+      |1,-2,1||x2|=| 0|
+      |0,1,-2||x3| |-1|
       
       A=[[-2,1,0],[1,-2,1],[0,1,-2]]
       d=[-1,0-1]
@@ -25,7 +25,7 @@ We will use this to solve:
       maxiter=100
       tol=.001
       
-      c=gauss_Sidel(A, d, x, n, err)
+      c=gauss_Sidel(A, d, x, maxiter, tol)
 
 Output from the lines above:
 
