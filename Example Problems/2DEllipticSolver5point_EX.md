@@ -24,7 +24,7 @@ We will do this ussing a 5 point stencil finite difference method (possion2D5())
 x now holds the solution of the finite difference solution.
 We could also solve ith using the Conjugate Gradiant program congrad() as well. This would involve doing the following:
     
-    mesh=10             # Size of the mesh
+    mesh=5             # Size of the mesh
     size=1              # Size of the square over which we are solving
     a=0                 # the x cordinate of botom left corner of the square we are solving over
     b=0                 # the y cordinate of botom left corner of the square we are solving over      
