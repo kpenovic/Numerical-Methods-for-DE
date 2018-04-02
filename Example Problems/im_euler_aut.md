@@ -69,7 +69,7 @@ We will also want to compare our approximate solutions to the exact solutions, s
 
           return(K/(1+A*np.exp(scamult(-gamma, x))))  
           
-We will now get set our initial conditions and parameters and use ex_euler_aut() to obtain our approximations:
+We will now get set our initial conditions and parameters and use im_euler_aut() to obtain our approximations:
 
       tol=.001
       maxiter=100
