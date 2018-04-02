@@ -6,7 +6,7 @@
 
 **Description/Purpose:** This routine will aproximate the solution of a parabolic system of ODE's of the form y'(u)=y(u,t) y(t0)=n via a Runge-Kutta 2 Method
 
-**Input:** A function (func), a step size (delt), an initial condition (u), left and right endpoint of the interval (a,b), and the number of ODE's (m).
+**Input:** A function (func), a step size (delt), an initial condition (u), left and right endpoint of the interval (a,b).
 
 **Output:** A list containing the aproximate solution of the ODE. 
 
