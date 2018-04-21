@@ -10,7 +10,7 @@
 
 **Output:** This routine returns a single float value.
 
-**Implementation/Code:** The following is the code for v2norm()
+**Implementation/Code:** The following is the code for vecrelerr()
 
     def vecrelerr(aprx, actl, norm):
     
