@@ -34,7 +34,7 @@ This is the maximum column sum like we would expect
         for i in range(n):
             temp=0;
             for j in range(n):
-                temp+=A[j][i];
+                temp+=abs(A[j][i]);
 
             if(temp>current):
                 current=temp;
