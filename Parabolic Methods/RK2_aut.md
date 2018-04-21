@@ -12,9 +12,9 @@
 
 **Implementation/Code:** The following is the code for RK2_aut()
 
-      def RK2_aut(func, delt, u, a, b):
+      def RK2_aut(func, dt, u, a, b):
 
-          n=int((b-a)/delt+1)
+          n=int((b-a)/dt+1)
 
           solu=[0]*n    
 
