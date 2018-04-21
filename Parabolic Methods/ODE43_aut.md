@@ -6,15 +6,15 @@
 
 **Description/Purpose:** This routine will aproximate the solution of an of ODE of the form y'(u)=y(u,t) y(t0)=n via a Predictor-Corrector method. The Preditction step is a fouth order Adams-Bashford method while the correction is a third order Adams-Moulton method.
 
-**Input:** A function (func), a step size (delt), an initial condition (u), left and right endpoint of the interval (a,b).
+**Input:** A function (func), a step size (dt), an initial condition (u), left and right endpoint of the interval (a,b).
 
 **Output:** A list containing the aproximate solution of the ODE. 
 
 **Implementation/Code:** The following is the code for ODE43_aut()
 
-      def ODE43_aut(func, delt, u, a, b):
+      def ODE43_aut(func, dt, u, a, b):
 
-          n=int((b-a)/delt+1)
+          n=int((b-a)/dt+1)
 
           solu=[0]*n    
 
@@ -22,7 +22,7 @@
 
           for i in range(1, 4):
 
-              solu[i]=solu[i-1]+delt*func(solu[i-1])
+              solu[i]=solu[i-1]+dt*func(solu[i-1])
 
           for i in range(4, n):
 
