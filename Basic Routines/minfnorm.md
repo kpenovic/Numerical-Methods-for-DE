@@ -34,7 +34,7 @@ Which is the max row sum as we expect.
     for i in range(n):
         temp=0;
         for j in range(n):
-            temp+=A[i][j];
+            temp+=abs(A[i][j]);
             
         if(temp>current):
             current=temp;
