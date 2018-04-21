@@ -6,15 +6,15 @@
 
 **Description/Purpose:** This routine will aproximate the solution of a parabolic system of ODE's of the form y'(u)=y(u,t) y(t0)=n via a Runge-Kutta 4 Method
 
-**Input:** A function (func), a step size (delt), an initial condition (u), left and right endpoint of the interval (a,b).
+**Input:** A function (func), a step size (dt), an initial condition (u), left and right endpoint of the interval (a,b).
 
 **Output:** A list containing the aproximate solution of the ODE. 
 
 **Implementation/Code:** The following is the code for RK4_aut()
 
-      def RK4_aut(func, delt, u, a, b):
+      def RK4_aut(func, dt, u, a, b):
 
-          n=int((b-a)/delt+1)
+          n=int((b-a)/dt+1)
 
           solu=[0]*n    
 
