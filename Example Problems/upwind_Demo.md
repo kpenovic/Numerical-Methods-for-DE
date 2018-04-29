@@ -1,10 +1,10 @@
-**Routine Name:**           Demonstrating how to use the program upwind() to solve the advection equation.
+**Routine Name:**           Demonstrating how to use the program upwinding() to solve the advection equation.
 
 **Author:** Kegan Penovich
 
 **Language:** Python.
 
-**Description/Purpose:** This routine will demonstrate the use of upwind() to solve the PDE u_t + a*u_x = 0.
+**Description/Purpose:** This routine will demonstrate the use of upwinding() to solve the PDE u_t + a*u_x = 0.
 
 
 **Usage/Example:**
@@ -29,7 +29,7 @@ We will now need to define the window over which we are solving, and appropriate
 
       k=-0.9
 
-      solu = laxWendroff(func1, k, a, b, c, d, dt, dx)
+      solu = upwinding(func1, k, a, b, c, d, dt, dx)
       
 solu now holds a matrix containing the solutions for each of the time steps. This is an ineficient use of memory, but it did make it easier to watch the solution evolve. Eventually this could be fixed. We can now plot the solution at different time steps and watch the solution evolve.
 
