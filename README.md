@@ -79,9 +79,9 @@
 
 ## Parabolic Methods
 
-- [Parabolic ODE Explicit Euler Demo (ex_euler)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Parabolic%20Methods/ex_euler.md)
-- [Parabolic ODE Implicit Euler Demo (im_euler)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Parabolic%20Methods/im_euler_aut.md)
-- [Parabolic ODE RK2 Demo (RK2_aut)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Parabolic%20Methods/RK2_aut.md)
-- [Parabolic ODE RK4 Demo (RK4_aut)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Parabolic%20Methods/RK4_aut.md)
-- [Parabolic ODE Predictor Corrector Demo (ODE43_aut)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Parabolic%20Methods/ODE43_aut.md)
-- [Parabolic PDE Explicit Euler Demo (exEulerPDE)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Parabolic%20Methods/exEulerPDE.md)
+- [Parabolic ODE Explicit Euler (ex_euler)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Parabolic%20Methods/ex_euler.md)
+- [Parabolic ODE Implicit Euler (im_euler)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Parabolic%20Methods/im_euler_aut.md)
+- [Parabolic ODE RK2 (RK2_aut)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Parabolic%20Methods/RK2_aut.md)
+- [Parabolic ODE RK4 (RK4_aut)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Parabolic%20Methods/RK4_aut.md)
+- [Parabolic ODE Predictor Corrector (ODE43_aut)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Parabolic%20Methods/ODE43_aut.md)
+- [Parabolic PDE Explicit Euler (exEulerPDE)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Parabolic%20Methods/exEulerPDE.md)
