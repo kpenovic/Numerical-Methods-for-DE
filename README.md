@@ -44,44 +44,44 @@
 
 ## Elliptic Methods
 
-- Elliptical ODE Finite Difference Matrix (constant k)  (elip_int)
-- Elliptical ODE Finite Difference Matrix (function k)  (elip_int)
-- Elliptical PDE 5-Point Mesh (possion2D5) 
-- Elliptical PDE 9-Point Mesh (possion2D5) 
+- [Elliptical ODE Finite Difference Matrix (constant k)  (elip_int)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Elliptic%20Methods/elip_int.md)
+- [Elliptical ODE Finite Difference Matrix (function k)  (t2elip_int)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Elliptic%20Methods/t2elip_int.md)
+- [Elliptical PDE 5-Point Mesh (possion2D5)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Elliptic%20Methods/possion2D5.md) 
+- [Elliptical PDE 9-Point Mesh (possion2D9)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Elliptic%20Methods/possion2D9.md) 
 
 ## Example Problems
 
-- Elliptical PDE 5-Point Mesh Demo (2DEllipticSolver5point_EX)
-- Elliptical PDE 9-Point Mesh Demo (2DEllipticSolver9point_EX)
-- Elliptic ODE Demo (Eliptic_ODE_1_EX)
-- Parabolic ODE Explicit Euler Demo (ex_euler_demo)
-- Parabolic ODE Implicit Euler Demo (im_euler_aut)
-- Parabolic ODE RK2 Demo (RK2_aut_demo)
-- Parabolic ODE RK4 Demo (RK4_aut_demo)
-- Parabolic ODE Predictor Corrector Demo (ODE43_aut_demo)
-- Hyperbolic PDE Upwinding Method Demo (upwing_Demo)
-- Hyperbolic PDE Lax-Wendroff Method Demo (laxWendroff_Demo)
-- Hyperbolic PDE Beam-Warming Method Demo (BeamWarming_Demo)
-- Stability of Explicit Euler
-- Stability of Implicit Euler
-- Stability of Implicit Euler for increasing time step
-- Stability of Multi-Step Method
-- Stability of RK4 Method
-- Efficiency comparison of Jacobi, Gauss-Sidel, and Conjugate Gradient methods (Ja_Gs_Cg_Comparison)
-- Condition Number of a matrix demo (condition_EX)
-- Maximum Eigenvalue Demo (maxeig_EX)
+- [Elliptical PDE 5-Point Mesh Demo (2DEllipticSolver5point_EX)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Example%20Problems/2DEllipticSolver5point_EX.md)
+- [Elliptical PDE 9-Point Mesh Demo (2DEllipticSolver9point_EX)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Example%20Problems/2DEllipticSolver9point_EX.md)
+- [Elliptic ODE Demo (Eliptic_ODE_1_EX)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Example%20Problems/Elliptic_ODE_1_EX.md)
+- [Parabolic ODE Explicit Euler Demo (ex_euler_demo)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Example%20Problems/ex_euler_demo.md)
+- [Parabolic ODE Implicit Euler Demo (im_euler_aut)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Example%20Problems/im_euler_aut.md)
+- [Parabolic ODE RK2 Demo (RK2_aut_demo)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Example%20Problems/RK2_aut_demo.md)
+- [Parabolic ODE RK4 Demo (RK4_aut_demo)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Example%20Problems/RK4_aut_demo.md)
+- [Parabolic ODE Predictor Corrector Demo (ODE43_aut_demo)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Example%20Problems/ODE43_aut_demo.md)
+- [Hyperbolic PDE Upwinding Method Demo (upwing_Demo)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Example%20Problems/upwind_Demo.md)
+- [Hyperbolic PDE Lax-Wendroff Method Demo (laxWendroff_Demo)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Example%20Problems/laxWendroff_Demo.md)
+- [Hyperbolic PDE Beam-Warming Method Demo (BeamWarming_Demo)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Example%20Problems/BeamWarming_demo.md)
+- [Stability of Explicit Euler](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Example%20Problems/Stability%20of%20Explicit%20euler.md)
+- [Stability of Implicit Euler](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Example%20Problems/Stability%20of%20Implicit%20Euler.md)
+- [Stability of Implicit Euler for increasing time step](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Example%20Problems/Stability%20of%20Implicit%20Euler%20for%20increasing%20dt.md)
+- [Stability of Multi-Step Method](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Example%20Problems/Stability%20of%20Multi-Step%20Method.md)
+- [Stability of RK4 Method](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Example%20Problems/Stability%20of%20RK4%20Method.md)
+- [Efficiency comparison of Jacobi, Gauss-Sidel, and Conjugate Gradient methods (Ja_Gs_Cg_Comparison)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Example%20Problems/Ja_Gs_Cg_Comparison.md)
+- [Condition Number of a matrix demo (condition_EX)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Example%20Problems/condition_EX.md)
+- [Maximum Eigenvalue Demo (maxeig_EX)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Example%20Problems/maxeigva_EX.md)
 
 ## Hyperbolic Methods
 
-- Hyperbolic PDE Upwinding Method (upwinding)
-- Hyperbolic PDE Lax-Wendroff Method (LaxWendroff)
-- Hyperbolic PDE Beam-Warming Method (BeamWarming)
+- [Hyperbolic PDE Upwinding Method (upwinding)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Hyperbolic%20Methods/Upwinding.md)
+- [Hyperbolic PDE Lax-Wendroff Method (LaxWendroff)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Hyperbolic%20Methods/LaxWendroff.md)
+- [Hyperbolic PDE Beam-Warming Method (BeamWarming)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Hyperbolic%20Methods/BeamWarming.md)
 
 ## Parabolic Methods
 
-- Parabolic ODE Explicit Euler Demo (ex_euler)
-- Parabolic ODE Implicit Euler Demo (im_euler)
-- Parabolic ODE RK2 Demo (RK2_aut)
-- Parabolic ODE RK4 Demo (RK4_aut)
-- Parabolic ODE Predictor Corrector Demo (ODE43_aut)
-- Parabolic PDE Explicit Euler Demo (exEulerPDE)
+- [Parabolic ODE Explicit Euler Demo (ex_euler)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Parabolic%20Methods/ex_euler.md)
+- [Parabolic ODE Implicit Euler Demo (im_euler)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Parabolic%20Methods/im_euler_aut.md)
+- [Parabolic ODE RK2 Demo (RK2_aut)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Parabolic%20Methods/RK2_aut.md)
+- [Parabolic ODE RK4 Demo (RK4_aut)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Parabolic%20Methods/RK4_aut.md)
+- [Parabolic ODE Predictor Corrector Demo (ODE43_aut)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Parabolic%20Methods/ODE43_aut.md)
+- [Parabolic PDE Explicit Euler Demo (exEulerPDE)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Parabolic%20Methods/exEulerPDE.md)
