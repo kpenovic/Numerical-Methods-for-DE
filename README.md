@@ -10,7 +10,7 @@
 
 - Error Computation
 
-  - Absolute Error (abserr)
+  - [Absolute Error (abserr)](Numerical-Methods-for-DE/Appendix/Logistic Equation.md)
   - Relative Error (relerr)
   - Relative Error for a vector (vecrelerr)
   
