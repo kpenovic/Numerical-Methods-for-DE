@@ -2,45 +2,45 @@
 
 ## Appendix 
 
-- Logistic Equation
-- Spring Mass Equation
-- Basic ODE
+- [Logistic Equation](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Appendix/Logistic%20Equation.md)
+- [Spring Mass Equation](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Appendix/Spring%20Mass%20Equation.md)
+- [Basic ODE](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Appendix/ode_basic.md)
 
 ## Basic Routines
 
 - Error Computation
 
-  - [Absolute Error (abserr)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Appendix/Logistic%20Equation.md)
-  - Relative Error (relerr)
-  - Relative Error for a vector (vecrelerr)
+  - [Absolute Error (abserr)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Basic%20Routines/Error%20Computation/abserr.md)
+  - [Relative Error (relerr)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Basic%20Routines/Error%20Computation/relerr.md)
+  - [Relative Error for a vector (vecrelerr)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Basic%20Routines/Error%20Computation/vecrelerr.md)
   
 - Linear Algebra Routines
  
-  - LU solver (LUsolve)
-  - Naive LU decomposition (NaiveLU)
-  - Matrix Condition Number (condition)
-  - Congugate Gradiant Solver (congrad)
-  - Gauss Sidel Solver (gauss_Sidel)
-  - Jacobi Solver (jacobi)
-  - Matrix-1 Norm (m1norm)
-  - Maximum Eigenvalue (maxeigva)
-  - Maxtrix Infinity Norm (minfnorm)
-  - Thomas Algorithm Solver (thomas)
-  - LU solver on a Tridiagonal Matrix (triDiLU)
-  - Matrix-Vector Multiplication (vmmult)
+  - [LU solver (LUsolve)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Basic%20Routines/Linear%20Algebra%20Routines/LUsolve.md)
+  - [Naive LU decomposition (NaiveLU)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Basic%20Routines/Linear%20Algebra%20Routines/NaiveLU.md)
+  - [Matrix Condition Number (condition)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Basic%20Routines/Linear%20Algebra%20Routines/condition.md)
+  - [Congugate Gradiant Solver (congrad)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Basic%20Routines/Linear%20Algebra%20Routines/congrad.md)
+  - [Gauss Sidel Solver (gauss_Sidel)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Basic%20Routines/Linear%20Algebra%20Routines/gauss_Sidel.md)
+  - [Jacobi Solver (jacobi)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Basic%20Routines/Linear%20Algebra%20Routines/jacobi.md)
+  - [Matrix-1 Norm (m1norm)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Basic%20Routines/Linear%20Algebra%20Routines/m1norm.md)
+  - [Maximum Eigenvalue (maxeigva)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Basic%20Routines/Linear%20Algebra%20Routines/maxeigva.md)
+  - [Maxtrix Infinity Norm (minfnorm)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Basic%20Routines/Linear%20Algebra%20Routines/minfnorm.md)
+  - [Thomas Algorithm Solver (thomas)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Basic%20Routines/Linear%20Algebra%20Routines/thomas.md)
+  - [LU solver on a Tridiagonal Matrix (triDiLU)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Basic%20Routines/Linear%20Algebra%20Routines/triDiLU.md)
+  - [Matrix-Vector Multiplication (vmmult)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Basic%20Routines/Linear%20Algebra%20Routines/vmmult.md)
   
 - Vector Routines
  
-  - Vector Subtraction (diff)
-  - Dot Product (dot)
-  - Scalar Multiplication (scamult)
-  - Vector-1 norm (v1norm)
-  - Vector-2 norm (v2norm)
-  - Vector Infinity Norm (vinfnorm)
-  - Copy Vector (vcopy)
+  - [Vector Subtraction (diff)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Basic%20Routines/Vector%20Routines/diff.md)
+  - [Dot Product (dot)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Basic%20Routines/Vector%20Routines/dot.md)
+  - [Scalar Multiplication (scamult)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Basic%20Routines/Vector%20Routines/scamult.md)
+  - [Vector-1 norm (v1norm)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Basic%20Routines/Vector%20Routines/v1norm.md)
+  - [Vector-2 norm (v2norm)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Basic%20Routines/Vector%20Routines/v2norm.md)
+  - [Vector Infinity Norm (vinfnorm)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Basic%20Routines/Vector%20Routines/vinfnorm.md)
+  - [Copy Vector (vcopy)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Basic%20Routines/Vector%20Routines/vcopy.md)
   
-- Compute Machine Error (Machine Epsilon)
-- Coefficients for finite difference methods (fdcoeff)
+- [Compute Machine Error (Machine Epsilon)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Basic%20Routines/Machine%20Epsilon.md)
+- [Coefficients for finite difference methods (fdcoeff)](https://github.com/kpenovic/Numerical-Methods-for-DE/blob/master/Basic%20Routines/fdcoeff.md)
 
 ## Elliptic Methods
 
